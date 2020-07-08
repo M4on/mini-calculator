@@ -19,6 +19,7 @@ body{
 	position: relative;
 	margin: 0 auto;
 	box-size: border-box;
+	top: 30%;
 	width:600px;
 	height:700px;
 	background-color:transparent;

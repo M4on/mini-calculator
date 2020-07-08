@@ -1,0 +1,72 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	margin: 0 auto;
+	background-image: url(images/patterns.png);
+	background-position: center;
+	background-size: cover;
+	backround-repeat: no-repeat;
+	display: block;
+	
+
+}
+
+.main{
+	position: relative;
+	margin: 0 auto;
+	box-size: border-box;
+	width:600px;
+	height:700px;
+	background-color:transparent;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	display: block;
+	padding: 50px;
+	box-sizing: border-box;
+}
+
+#output{
+	position: relative !important;
+	color: white;
+	align-content: center !important;
+	font-size: 40px;
+	margin: 50px auto;
+	padding: 20px;
+	top: 0;
+	width: 300px;
+	height:100px;
+	background: green;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+
+.inputs{
+	width: 70px !important;
+	height: 15px;
+	margin: 3px;
+	padding: 5px;
+	display: inline-block !important;
+	outline: none;
+	border: 1px solid green;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+.inputs:focus{
+	outline: none;
+}
+
+input[type="button"]{
+	background-color: green;
+	color: white;
+	padding: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border-style: none;
+}
